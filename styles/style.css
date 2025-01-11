@@ -1,0 +1,335 @@
+/* Font styles */
+
+.regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* body style */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F1F1F3;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+section{
+    margin-bottom: 80px;
+}
+
+/* header style */
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.navbar button{
+    padding: 15px 30px;
+    color: #006A50;
+    background-color:#F5F5F5 ;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.header-banner{
+    border-radius: 24px;
+    height: 560px;
+    background-color: #C6E4D6;
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.header-content{
+    margin-left: 60px;
+}
+.header-content p{
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.header-content h1{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.header-content button{
+    padding: 17px 34px;
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color:#006A50 ;
+    border: none;
+    border-radius: 8px;
+}
+
+/* section one style */
+
+.one h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.pillars{
+    display: flex;
+    gap: 24px;
+}
+.pillars-box{
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+}
+.pillars-box img{
+    margin-bottom: 24px;
+}
+.pillars-box h6{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.pillars-box p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* section two styles */
+
+.two h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.two p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.vision{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.vision-card{
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card img{
+    margin-bottom: 24px;
+
+}
+.vision-card h6{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.vision-card p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-card button{
+    padding: 11px 20px;
+    color: white;
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.speech {
+    padding: 48px 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    
+    background-repeat: no-repeat;
+}
+.speech p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.speech h6{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.speech small{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+/* section three styles */
+
+.three h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    margin-bottom: 24px;
+}
+.chart{
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0E0E0E;
+}
+table thead{
+    background-color: rgba(198, 228, 214, 1);
+}
+thead th{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+    padding:  24px ;
+    border: 1px solid rgba(14, 14, 14, 0.3);
+    text-align: left;
+}
+tbody td{
+    width: 79%;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0E0E0E;
+    padding: 24px ;
+    border: 1px solid rgba(14, 14, 14, 0.3);
+}
+tbody button{
+    padding: 12px 20px;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.3);
+    border-radius: 4px;
+}
+
+/* section four styles */
+
+.four h2{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    margin-bottom: 24px;
+}
+.four p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-list{
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    margin-bottom:24px ;
+}
+.news-list img{
+    border-radius: 24px;
+}
+.news-content h3{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.news-content img{
+    margin-bottom: 12px;
+}
+.news-content p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+.news-content button{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+  
