@@ -41,6 +41,7 @@ section{
     margin-bottom: 80px;
 }
 
+
 /* header style */
 
 .navbar{
@@ -66,6 +67,11 @@ section{
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 18px;
+}
+.navbar button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
 }
 .header-banner{
     border-radius: 24px;
@@ -103,6 +109,10 @@ section{
     border: none;
     border-radius: 8px;
 }
+.header-content button:hover{
+    cursor: pointer;
+    color: red;
+}
 
 /* section one style */
 
@@ -121,6 +131,9 @@ section{
     background-color: white;
     border-radius: 16px;
     padding: 24px;
+}
+.pillars-box:hover{
+    box-shadow: 10px 10px 8px  rgba(0, 0, 0, 0.247);
 }
 .pillars-box img{
     margin-bottom: 24px;
@@ -194,6 +207,10 @@ section{
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 16px;
+}
+.vision-card button:hover{
+    cursor: pointer;
+    border: 3px solid white;
 }
 .speech {
     padding: 48px 24px;
@@ -271,6 +288,11 @@ tbody button{
     border: 1px solid rgba(14, 14, 14, 0.3);
     border-radius: 4px;
 }
+tbody button:hover{
+    background-color: green;
+    color: red;
+    cursor: pointer;
+}
 
 /* section four styles */
 
@@ -328,6 +350,11 @@ tbody button{
     font-size: 18px;
     margin-top: 20px;
 }
+.news-content button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
 
 /* section five styles */
 .five{
@@ -361,6 +388,9 @@ tbody button{
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+.donate-box:hover{
+    background-color: #C6E4D6;
+}
 .donate-box h3{
     font-family: "Fira Sans", serif;
     font-weight: 700;
@@ -386,6 +416,11 @@ tbody button{
     font-size: 18px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+.five button:hover{
+    background-color: red;
+    color: white;
 }
 
 /* section six styles */
@@ -420,8 +455,6 @@ tbody button{
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.3);
-
-    
 }
 .six input[type="button"]{
     padding: 17px 34px;
@@ -431,6 +464,7 @@ tbody button{
     font-weight: 600;
     font-size: 18px;
     color: white;
+    cursor: pointer;
 }
 
 /* footer styles */
