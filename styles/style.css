@@ -67,11 +67,11 @@ section{
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 18px;
+    cursor: pointer;
+
 }
 .navbar button:hover{
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 20px;
+    background-color: gainsboro;
 }
 .header-banner{
     border-radius: 24px;
@@ -108,11 +108,11 @@ section{
     background-color:#006A50 ;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .header-content button:hover{
-    cursor: pointer;
-    color: red;
-    background-color: green;
+    color:white;
+    background-color:#055e47;
 }
 
 /* section one style */
@@ -210,17 +210,16 @@ section{
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-size: 16px;
-}
-.vision-card button:hover{
     cursor: pointer;
-    border: 2px solid white;
 }
 .speech {
-    padding: 48px 24px;
+    padding: 48px 24px 48px 24px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 16px;
+}
+.speech-text{
+    padding-top: 23px;
     background-image: url(../assets/quote-bg.png);
-    
     background-repeat: no-repeat;
 }
 .speech p{
@@ -290,11 +289,12 @@ tbody button{
     background-color: #C6E4D6;
     border: 1px solid rgba(14, 14, 14, 0.3);
     border-radius: 4px;
+    cursor: pointer;
 }
 tbody button:hover{
-    background-color: green;
-    color: red;
-    cursor: pointer;
+    background-color: #6be7ad;
+    color:white;
+    
 }
 
 /* section four styles */
@@ -352,10 +352,10 @@ tbody button:hover{
     font-weight: 600;
     font-size: 18px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .news-content button:hover{
-    cursor: pointer;
-    background-color: red;
+    background-color: rgb(7, 141, 107);
     color: white;
 }
 
@@ -422,7 +422,7 @@ tbody button:hover{
     cursor: pointer;
 }
 .five button:hover{
-    background-color: red;
+    background-color:#2a846d;
     color: white;
 }
 
@@ -486,6 +486,7 @@ footer{
 }
 footer hr{
     margin: 32px 0;
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
 footer h4{
     font-family: "Fira Sans", serif;
