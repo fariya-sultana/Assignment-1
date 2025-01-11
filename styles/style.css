@@ -30,10 +30,12 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #F1F1F3;
+main{
     margin-left: 160px;
     margin-right: 160px;
+}
+body{
+    background-color: #F1F1F3;
 }
 section{
     margin-bottom: 80px;
@@ -42,6 +44,8 @@ section{
 /* header style */
 
 .navbar{
+    margin-left: 160px;
+    margin-right: 160px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -70,7 +74,7 @@ section{
     display: flex;
     gap: 54px;
     align-items: center;
-    margin-bottom: 80px;
+    margin: 0 160px 80px 160px;
 }
 .header-content{
     margin-left: 60px;
@@ -427,6 +431,28 @@ tbody button{
     font-weight: 600;
     font-size: 18px;
     color: white;
+}
+
+/* footer styles */
+
+footer{
+    padding: 50px 160px;
+    background-color: white;
+}
+footer hr{
+    margin: 32px 0;
+}
+footer h4{
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+    text-align: center;
+}
+footer .icons{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
 }
 
 
