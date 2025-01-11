@@ -112,6 +112,7 @@ section{
 .header-content button:hover{
     cursor: pointer;
     color: red;
+    background-color: green;
 }
 
 /* section one style */
@@ -176,8 +177,10 @@ section{
     margin-bottom: 32px;
 }
 .vision-card{
+    width: 410px;
     border-radius: 16px;
     padding: 32px;
+    
 }
 .vision-card img{
     margin-bottom: 24px;
@@ -210,7 +213,7 @@ section{
 }
 .vision-card button:hover{
     cursor: pointer;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 .speech {
     padding: 48px 24px;
@@ -455,6 +458,8 @@ tbody button:hover{
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.3);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .six input[type="button"]{
     padding: 17px 34px;
@@ -465,6 +470,12 @@ tbody button:hover{
     font-size: 18px;
     color: white;
     cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.six input[type="button"]:hover{
+    background-color: red;
+    color: white;
 }
 
 /* footer styles */
